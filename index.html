@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+<body class="darkmode">
+    
+    <section id="container">
+        <div class="navbar">
+            <a href="#home" class="brand">
+                <div class="judul jd1">project</div> 
+                <div class="judul jd2">.xvi</div>
+            </a>
+            <div class="list">
+                <ul class="ulnav">
+                    <li class="linav">
+                        <a href="#home">home</a>
+                    </li>
+                    <li class="linav">
+                        <a href="#apps">project</a>
+                    </li>
+                    <li class="linav">
+                        <a href="#about">about</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="switchmode">
+                <div class="halo" id="mode"></div>
+                <span class="material-symbols-outlined hilang" id="light">light_mode</span>
+                <span class="material-symbols-outlined hilang muncul" id="dark">dark_mode</span>
+            </div>
+        </div>
+
+        <div class="navbarbot">
+            <div class="listbot">
+                <ul class="ulnavbot">
+                    <li class="linavbot" >
+                        <a href="#home">
+                            <span class="material-symbols-outlined">home</span>home
+                        </a>
+                    </li>
+                    <li class="linavbot" >
+                        <a href="#apps">
+                            <span class="material-symbols-outlined">apps</span>app
+                        </a>
+                    </li>
+                    <li class="linavbot">
+                        <a href="#about">
+                            <span class="material-symbols-outlined">alternate_email</span>about
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header" id="home">
+            <div class="hometxt">
+                <div class="h1">Hi, Welcome to</div>
+                <div class="hbrd">
+                    <div class="hjd1">project</div> 
+                    <div class="hjd2">.xvi</div>
+                </div>
+                <div class="h1">website</div>
+            </div>
+
+            <div class="homesub">
+                <span>These are some of the projects I've made</span>
+            </div>
+
+            <div >
+                <a href="#apps" class="getstarted">
+                    Get Started
+                </a>
+            </div>
+        </div>
+
+        <div class="content" id="apps">
+            <h1 class="projecttitle">Project</h1>
+            <div class="project">
+            <div class="card">
+                <div class="cards">
+                    <img src="/image/calc.png" class="preview"></img>
+                        <div class="preview_caption">
+                            <span class="caption">Calculator</span>
+                            <div class="nextbtn">
+                                <div onclick="location.href = '/calculator/calc.html'" class="goto"></div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="cards">
+                    <img src="/image/snake.png" class="preview"></img>
+                        <div class="preview_caption">
+                            <span class="caption">snake</span>  
+                            <div class="nextbtn">
+                                <div onclick="location.href = '/snake/snake.html'" class="goto"></div>
+                            </div>
+                        </div>
+                </div>
+                
+                <div class="cards">
+                    <img src="/image/tictactoe.png" class="preview"></img>
+                        <div class="preview_caption">
+                            <span class="caption">tic-tac-toe</span>
+                            <div class="nextbtn">
+                                <div onclick="location.href = '/tictactoe/tic.html'" class="goto"></div>
+                            </div>
+                        </div>
+                </div>
+                
+            </div>
+            </div>
+
+            <h6>still continue...</h6>
+
+        </div>
+
+
+        <div class="about" id="about">
+            <h1>About</h1>
+            <h2>Hi, my name is Danish Ahza Rizqi</h2>
+            <h3>thank you for visiting my project website :D</h3>
+            <h3>here are my social media</h2>
+
+            <div class="sosmed">
+                <a class="fa fa-instagram" href="https://www.instagram.com/danishar__" target=”_blank”></a>
+                <a class="fa fa-twitter"  href="https://twitter.com/tediibeeer" target=”_blank”></a>
+                <a class="fa fa-facebook-square"  href="https://web.facebook.com/stray.hai/" target=”_blank”></a>
+            </div>
+
+        </div>
+    </section>
+  
+    
+    <script src="/home.js"></script>
+</body>
+</html>
