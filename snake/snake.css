@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+.container {
+    height: 100vh;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(225, 225, 225);
+
+}
+
+.board  {
+
+    height: 600px;
+    width: 500px;
+
+}
+
+.score_board {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.play_board {
+    display: flex;
+    background-color: rgb(25, 25, 25);
+    width: 100%;
+    height: 85%;
+    border-radius: 0px 0px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    color: rgb(225, 225, 225);
+    font-weight: 700;
+    font-size: larger;
+}
+
+.gameover {
+    color: rgb(225, 225, 225);
+    position: absolute;
+    display: none;
+    font-size: xx-large;
+    font-weight: 700;
+    gap: 1em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restart {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0 solid ;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    color: rgb(225, 225, 225);
+    background-color: rgba(225, 225, 225, 0.15);
+    transition: .35s;
+}
+
+.final-score{
+    font-size: medium;
+}
+
+.restart:hover{
+    color: rgb(50, 50, 50);
+    background-color: rgba(225, 225, 225, 0.927);
+}
+
+.back  {
+    margin: 2em;
+    padding: 1em 2em;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(50, 50, 50, 0.95);
+    color: rgba(225, 225, 225);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: .35s;
+}
+
+.back:hover {
+    color: rgb(50, 50, 50);
+    background-color: rgba(225, 225, 225, 0.927);
+}

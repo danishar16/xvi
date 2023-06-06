@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tic.css">
+
+    <title>xvi - tic-tac-toe</title>
+</head>
+<body>
+    <div class="container">
+        <span class="title">tic-tac-toe </span>
+        <div class="before board" id="before-board">
+            <span class="narasi">Choose mode</span>
+
+                <button type="button" class="pvp mode" id="pvp">Player1(X) vs Player2(O)</button>
+                <button type="button" class="pvp mode" id="pvb">Player (X) vs Bot (O)</button>
+
+        </div>
+
+        <div class="play board" id="play-board">
+            <div class="row">
+                <div class="box" id="box1"></div>
+                <div class="box" id="box2"></div>
+                <div class="box" id="box3"></div>
+            </div>
+
+            <div class="row">
+                <div class="box" id="box4"></div>
+                <div class="box" id="box5"></div>
+                <div class="box" id="box6"></div>
+            </div>
+
+            <div class="row">
+                <div class="box" id="box7"></div>
+                <div class="box" id="box8"></div>
+                <div class="box" id="box9"></div>
+            </div>
+        </div>
+
+        <div class="after board" id="after-board">
+            <span class="narasi" id="final"></span>
+            <button type="button" class="restart" id="restart">restart</button>
+        </div>
+        <!-- <a href="index.html" class="back" id="back">Return To Home</a> -->
+    </div> 
+
+    <script src="tic.js"></script>
+</body>
+</html>

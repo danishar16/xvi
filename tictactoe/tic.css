@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board  {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.play, .after {
+    display: none;
+}
+
+.row    {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box    {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    font-weight: bold;
+    font-size: 90px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(225, 225, 225);
+    background-color: rgb(70, 70, 70);
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .25s;
+
+}
+
+.box:hover {
+    opacity: 50%;
+}
+
+.mode {
+    width: 20rem;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0 solid ;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    color: rgb(225, 225, 225);
+    background-color: rgba(225, 225, 225, 0.15);
+    transition: .35s;
+}
+
+
+.mode:hover{
+    color: rgb(50, 50, 50);
+    background-color: rgba(225, 225, 225, 0.927);
+}
+
+.narasi {
+    color: rgb(225, 225, 225);
+    font-size: x-large;
+    font-weight: 700;
+    gap: 1em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restart {
+    width: fit-content;
+    height: 50px;
+    padding: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0 solid ;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    color: rgb(225, 225, 225);
+    background-color: rgba(225, 225, 225, 0.15);
+    transition: .35s;
+}
+
+
+.restart:hover{
+    color: rgb(50, 50, 50);
+    background-color: rgba(225, 225, 225, 0.927);
+}
+
+.back  {
+    margin: 2em;
+    padding: 1em 2em;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(50, 50, 50, 0.95);
+    color: rgba(225, 225, 225);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: .35s;
+}
+
+.back:hover {
+    color: rgb(50, 50, 50);
+    background-color: rgba(225, 225, 225, 0.927);
+}
+
+.title {
+    color: rgb(225, 225, 225);
+
+    font-size: xx-large;
+    margin-bottom: 1em;
+}
